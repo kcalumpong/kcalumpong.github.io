@@ -1,0 +1,14 @@
+h1 {
+	color: rgb(305,53,60);
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+	color: gold;
+}
+body{
+	font-size: 14px;
+	font-family: playfair display;
+	font-style: italic;
+	font-weight: normal;
+}
