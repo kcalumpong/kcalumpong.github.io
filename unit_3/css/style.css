@@ -2,15 +2,15 @@ h1 {
 	color: rgb(305,53,60);
 	text-align: center;
 }
-ul{
+ul {
 	text-align: center;
 	list-style-type: none;
 	color: gold;
 }
-li{
+li {
 	color: gold;
 }
-body{
+body {
 	font-size: 14px;
 	font-family: playfair display;
 	font-style: italic;
@@ -18,6 +18,9 @@ body{
 	text-align: center;
 	background-color: rgb(191,237,204);
 }
-p{
+p {
 	text-align: center;
+}
+#first {
+	color: orange;
 }
