@@ -6,9 +6,15 @@ ul{
 	list-style-type: none;
 	color: gold;
 }
+li{
+	color: gold;
+}
 body{
 	font-size: 14px;
 	font-family: playfair display;
 	font-style: italic;
 	font-weight: normal;
+	text-align: center;
+	background-color: rgb(191,237,204);
 }
+
