@@ -9,11 +9,16 @@ section {
 	padding:5em 0;
 	border: 1px solid;
 }
+h2{
+	font-family: 'Playfair Display' sans-serif;
+	font-weight: bold;
+}
 h1 {
 	font-family: 'Playfair Display', sans-serif;
 }
 ul {
 	padding-left:1.25em;
+	line-height: 2em;
 }
 
 header{ 
@@ -40,12 +45,24 @@ div, section {
 	padding: 20px;
 }
 #left {
-	background-color: #E55B88;
+	background-color: violet;
 	border: 1 px black solid;
 	padding: 20px;
+	float: left;
+	width: 62%;
 }
-#right{
-	background-color: #E55B88;
+#right {
+	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width:30%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
