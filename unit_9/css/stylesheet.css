@@ -5,8 +5,14 @@ body {
 	line-height:1.3;
 	text-align: center;
 }
+a {
+	color: #3aa3a3;
+}
+a:hover {
+	background-color: rgba(58,163,163,50%);
+}
 section {
-	padding:5em 0;
+	padding: 2em 0;
 	border: 1px solid;
 }
 footer {
@@ -56,7 +62,7 @@ li {
 	width: 62%;
 }
 #right {
-	/*background-color: pink;*/
+	background-color: #ffeee5;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
@@ -94,6 +100,9 @@ li {
 }
 .About h2 {
 	margin-bottom: 10px;
+	font-style: italic;
+	/*border-bottom: 1px dashed;*/
+	letter-spacing: 2px;
 }
 .About img {
 	width: 200px;
@@ -144,7 +153,8 @@ nav a {
 	padding: 40px;
 	margin-top: 20px;
 	text-decoration: none;
-	color: #517CA6;
+	/*color: #517CA6;*/
+	color: #3aa3a3;
 }
 @media screen and (max-width: 929px) {
 	.grid_container div {
@@ -164,14 +174,18 @@ nav a {
 	#right {
 		width: 100%;
 		float: none;
-		/*border: none;*/
+		border: none;
 	}
 }
 @media screen and (max-width: 703px) {
-	nav a{
+	nav a {
 		float: none;
 		display: block;
 		padding: 0px;
+		border-style: none;
+	}
+	#right {
+		background-color: #ffffff;
 	}
 }
 	
