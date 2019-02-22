@@ -106,6 +106,7 @@ li {
 }
 .About img {
 	width: 200px;
+	width: 100%;
 }
 .About p {
 	margin: 0 10px;
