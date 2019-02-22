@@ -18,13 +18,12 @@ section {
 footer {
 	background-color: #DCDCDC;
 	padding: 5%;
-
 }
 h1 {
 	font-family: 'Playfair Display', sans-serif;
 	font-size: 28px;
 }
-h2{
+h2 {
 	font-family: 'Playfair Display' sans-serif;
 	font-weight: bold;
 	font-size: 40px;
@@ -50,13 +49,9 @@ li {
 	list-style-type: none;
 }
 #two_column {
-	/*background-color: #FFB7CF;*/
-	/*border: 1px black solid;*/
 	padding: 20px;
 }
 #left {
-	/*background-color: violet;*/
-	/*border: 1 px black solid;*/
 	padding: 20px;
 	float: left;
 	width: 62%;
@@ -101,7 +96,6 @@ li {
 .About h2 {
 	margin-bottom: 10px;
 	font-style: italic;
-	/*border-bottom: 1px dashed;*/
 	letter-spacing: 2px;
 }
 .About p {
@@ -143,14 +137,12 @@ nav {
 	border: .5px solid;
 	padding: 10px;
 	margin-top: 20px;
-	/*background-color: #F2EAEA;*/
 }
 nav a {
 	display: inline;
 	padding: 40px;
 	margin-top: 20px;
 	text-decoration: none;
-	/*color: #517CA6;*/
 	color: #3aa3a3;
 }
 @media screen and (max-width: 929px) {
@@ -166,7 +158,6 @@ nav a {
 	#left {
 		width: 100%;
 		float: none;
-		/*border: none;*/
 	}
 	#right {
 		width: 100%;
