@@ -14,9 +14,11 @@ header img {
 }
 a {
 	color: #3aa3a3;
+	text-decoration: none;
 }
 a:hover {
-	background-color: #DCDCDC;
+	text-decoration: none; 
+	color: #696969;
 }
 section {
 	padding: 2em 0;
@@ -73,6 +75,8 @@ li {
 	padding: 20px;
 	float: left;
 	width: 62%;
+}#left img {
+	width: 100%;
 }
 #right {
 	background-color: rgba(225,238,229,35%);
@@ -218,8 +222,10 @@ nav a {
 		padding: 0px;
 		border-style: none;
 	}
+	nav {
+		padding: 0px auto;
+	}
 	#right {
 		background-color: #ffffff;
 	}
 }
-
