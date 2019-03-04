@@ -185,13 +185,13 @@ nav, header {
 nav {
 	border: .05px solid #e9e9e9;
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 }
 nav a {
 	display: inline;
 	padding: 40px;
-	margin-top: 20px;
+	margin-top: 15px;
 	text-decoration: none;
 	color: #3aa3a3;
 }
@@ -223,7 +223,11 @@ nav a {
 		border-style: none;
 	}
 	nav {
-		padding: 0px auto;
+		padding: 0px;
+	}
+	nav a {
+		margin: 10px;
+		padding-top: 0px;
 	}
 	#right {
 		background-color: #ffffff;
