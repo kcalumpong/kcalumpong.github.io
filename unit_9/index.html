@@ -11,12 +11,18 @@
 <body>
 	<header>
 		<img src="images/gbn_logo2.png" alt="Global by Night Logo" title="Global by Night Logo"> 
+		<div class="hamburger">
+			<span> </span> 
+			<span> </span>
+			<span> </span>
+		</div>
 		<nav>
 			<a href="#">SHOP</a>
 			<a href="#">BLOG</a>
 			<a href="#">ABOUT</a>
 			<a href="#">CONTACT</a>
-		</nav>		
+		</nav>
+
 	</header>
 	<section class="intro">
 		<!-- <h2><span>WELCOME TO GLOBAL BY NIGHT</span> </h2> -->
@@ -128,5 +134,20 @@
 		</div>
 		<p>&copy;Copyright 2018 | All Rights Reserved</p>
 	</footer>
+	<script>
+		// grab the hamburger from the DOM
+		let hamburger = document.querySelector('.hamburger');
+		let nav = document.querySelector('nav');
+
+
+		// add a click event to the hamburger icon
+		hamburger.addEventListener('click', function(){
+			
+			// add class to nav
+			nav.classList.toggle("open");
+
+		});
+
+	</script>
 </body>
 </html>
